@@ -12,10 +12,10 @@ install -m 644 files/console-setup   	"${ROOTFS_DIR}/etc/default/"
 install -m 755 files/rc.local		"${ROOTFS_DIR}/etc/"
 
 on_chroot << EOF
-systemctl disable hwclock.sh
+systemctl enable hwclock.sh
 systemctl disable nfs-common
 systemctl disable rpcbind
-systemctl disable ssh
+systemctl enable ssh
 systemctl enable regenerate_ssh_host_keys
 EOF
 
