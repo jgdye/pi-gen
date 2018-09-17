@@ -1,1 +1,1 @@
-isc-dhcp-server bind9 nginx
+isc-dhcp-server bind9 nginx php-fpm

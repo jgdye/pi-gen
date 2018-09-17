@@ -1,1 +1,2 @@
-git vcsh etckeeper byobu vim-nox isc-dhcp-client
+libcairo2 libgtk-3-0 libpango-1.0-0 libpangocairo-1.0-0 libfontconfig1 libpangoft2-1.0-0 fontconfig
+git vcsh etckeeper byobu vim-nox isc-dhcp-client chromium-browser
